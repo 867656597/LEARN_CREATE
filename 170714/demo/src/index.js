@@ -5,14 +5,18 @@ class CommentApp extends React.Component {
 	render() {
 		return (
 			<div>
-
+				测试
 			</div>
 		)
 	}
 
 }
 
-class COmment
+class CommentInput extends ReactComponent {
+	render() {
+
+	}
+}
 
 
 ReactDOM.render(
