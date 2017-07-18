@@ -1,25 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './css/index.css'
 
-class CommentApp extends React.Component {
-	render() {
-		return (
-			<div>
-				测试
-			</div>
-		)
-	}
-
-}
-
-class CommentInput extends ReactComponent {
-	render() {
-
-	}
-}
-
+import CommentApp from './templet/CommentApp'
 
 ReactDOM.render(
 	<CommentApp />,
 	document.getElementById('root')
-)
+) 
